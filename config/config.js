@@ -75,7 +75,7 @@ export const projects = {
 			description: "Attendance Taking App built for Zoom",
 			icons: [
 				{
-					icon: faGitHub,
+					icon: faGithub,
 					link: "https://github.com/jbsypher/AttendanceScript/tree/master",
 				},
 			]
