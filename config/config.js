@@ -4,7 +4,7 @@ import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Hashir",
+	name: "Jonathan",
 	links: [
 		{
 			title: "About",
@@ -25,8 +25,8 @@ export const navigation = {
 	],
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Hey, I'm Jonathan",
+	description: "Eager-to-learn student athlete with leadership and technical skills pursuing a career in computer science and business.",
 	image: profile.src,
 	buttons: [
 		{
@@ -36,7 +36,7 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			link: "https://docs.google.com/document/d/1WE9cAqA19zwYTeqcBkCE9QH21cDxsOkhd76kV8UIBsI/edit?usp=sharing",
 			isPrimary: false,
 		},
 	],
@@ -45,9 +45,9 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+		"I am a Senior at Apex Friendship High School as part of the class of 2023",
+		"In the Technology Student Associaton, I was ranked 3rd (2021) and 2nd (2022) in Software Development in North Caolina",
+		"I also enjoy philosophy and playing guitar.",
 	],
 }
 
@@ -55,13 +55,13 @@ export const work = {
 	title: "What I do",
 	cards: [
 		{
-			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+			title: "Code Coach",
+			description: "Taught students the basics of coding at theCoderSchool",
 			icons: null,
 		},
 		{
-			title: "Web Development",
-			description: "I create responsive static websites using Reactjs.",
+			title: "Technology Student Association",
+			description: "Created original, problem-solving code and presented for competition",
 			icons: null,
 		}
 	],
@@ -69,7 +69,7 @@ export const work = {
 
 export const projects = {
 	title: "Projects",
-	cards: [
+	cards: [/*
 		{
 			title: "StarBook",
 			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
@@ -107,17 +107,17 @@ export const projects = {
 					link: "https://github.com/hashirshoaeb/portfolio",
 				},
 			]
-		},
+		},*/
 	],
 }
 
 export const contact = {
 	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+	description: "Contact me at your leisure via email",
 	buttons: [
 		{
 			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
+			link: "jonathanbarta3@gmail.com",
 			isPrimary: true,
 		},
 		{
@@ -131,16 +131,16 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+	title: "Jonathan Barta | Student | Programmer | Alturist",
+	description: "Eager-to-learn student athlete with leadership and technical skills pursuing a career in computer science and business.",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
-	cards: [
+	title: "@jbsypher",
+	description: "Jonathan Barta | Student | Programmer | Alturist",
+	cards: [/*
 		{
 			title: "My website",
 			link: "https://hashirshoaeb.com/",
@@ -160,6 +160,6 @@ export const links = {
 		{
 			title: "My LinkedIn",
 			link: "https://www.linkedin.com/in/hashirshoaeb/",
-		},
+		},*/
 	]
 }

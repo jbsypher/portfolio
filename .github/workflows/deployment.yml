@@ -22,12 +22,12 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [19.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set Environment Variables
+    - name: Set Environment Variables #this might break in the future
       run: echo "BASE_PATH=/${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
     - name: Test Environment Variables
       run: echo ${{ env.BASE_PATH }}
