@@ -69,21 +69,17 @@ export const work = {
 
 export const projects = {
 	title: "Projects",
-	cards: [/*
+	cards: [
 		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			title: "AttendanceScript",
+			description: "Attendance Taking App built for Zoom",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-				},
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
+					icon: faGitHub,
+					link: "https://github.com/jbsypher/AttendanceScript/tree/master",
 				},
 			]
-		},
+		},/*
 		{
 			title: "QuranTalk",
 			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
@@ -140,23 +136,15 @@ export const links = {
 	image: profile.src,
 	title: "@jbsypher",
 	description: "Jonathan Barta | Student | Programmer | Alturist",
-	cards: [/*
+	cards: [
 		{
 			title: "My website",
-			link: "https://hashirshoaeb.com/",
-		},
-		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
-		},
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
+			link: "https://jbsypher.github.io/portfolio",
 		},
 		{
 			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
-		},
+			link: "https://github.com/jbsypher/",
+		},/*
 		{
 			title: "My LinkedIn",
 			link: "https://www.linkedin.com/in/hashirshoaeb/",
