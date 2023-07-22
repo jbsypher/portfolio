@@ -1,6 +1,6 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faAppStore, faGithub, faGooglePlay, faAppleWhole, faComputer } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -26,7 +26,7 @@ export const navigation = {
 }
 export const intro = {
 	title: "Hey, I'm Jonathan",
-	description: "I'm an eager-to-learn student athlete with leadership and technical skills pursuing a career in computer science and business.",
+	description: "I'm an eager-to-learn student with leadership and technical skills pursuing a career in computer science and business.",
 	image: profile.src,
 	buttons: [
 		{
@@ -57,14 +57,14 @@ export const work = {
 	cards: [
 		{
 			title: "Code Coach",
-			description: "Instructed students through coding exercises at theCoderSchool. Created a code training program for newly hired staff",
-			icons: null,
+			description: "Instructed students through coding exercises at theCoderSchool. Created a code training program for newly hired staff.",
+			icons: faAppleWhole,
 			link: "https://www.thecoderschool.com/"
 		},
 		{
 			title: "Competitor at Technology Student Association",
 			description: "Created original, problem-solving code and presented for competition. Debated current technological issues in time-limited competition.",
-			icons: null,
+			icons: faComputer,
 			link: "https://tsaweb.org/"
 		}
 	],
@@ -131,7 +131,7 @@ export const contact = {
 export const SEO = {
 	// 50 - 60 char  
 	title: "Jonathan Barta | Student | Altruist",
-	description: "Eager-to-learn student athlete with leadership and technical skills pursuing a career in computer science and business.",
+	description: "Eager-to-learn student with leadership and technical skills pursuing a career in computer science and business.",
 	image: profile.src,
 }
 
