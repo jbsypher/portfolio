@@ -138,7 +138,7 @@ export const SEO = {
 export const links = {
 	image: profile.src,
 	title: "@jbsypher",
-	description: "Jonathan Barta | Student | Alturist",
+	description: "Jonathan Barta | Student | Altruist",
 	cards: [
 		{
 			title: "My website",
