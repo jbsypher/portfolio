@@ -26,7 +26,7 @@ export const navigation = {
 }
 export const intro = {
 	title: "Hey, I'm Jonathan",
-	description: "Eager-to-learn student athlete with leadership and technical skills pursuing a career in computer science and business.",
+	description: "I'm an eager-to-learn student athlete with leadership and technical skills pursuing a career in computer science and business.",
 	image: profile.src,
 	buttons: [
 		{
@@ -36,7 +36,7 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/1WE9cAqA19zwYTeqcBkCE9QH21cDxsOkhd76kV8UIBsI/edit?usp=sharing",
+			link: "https://docs.google.com/document/d/11aaToieS5EZz-XGwh3HE1DoOvMszX4ZnJVL8JSmPj3s/edit?usp=sharing",
 			isPrimary: false,
 		},
 	],
@@ -45,9 +45,10 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"I am a Senior at Apex Friendship High School as part of the class of 2023",
-		"In the Technology Student Associaton, I was ranked 3rd (2021) and 2nd (2022) in Software Development in North Caolina",
-		"I also enjoy philosophy and playing guitar.",
+		"-Student at The University of North Carolina at Chapel Hill in the Class of 2027",
+		"-Top-Ranked Competitor in Software Development, Business Competitions, & Debate",
+		"-Buckley Public Service Scholar",
+		"-Philosophy and Guitar enjoyer",
 	],
 }
 
@@ -56,13 +57,15 @@ export const work = {
 	cards: [
 		{
 			title: "Code Coach",
-			description: "Taught students the basics of coding at theCoderSchool",
+			description: "Instructed students through coding exercises at theCoderSchool. Created a code training program for newly hired staff",
 			icons: null,
+			link: "https://www.thecoderschool.com/"
 		},
 		{
-			title: "Technology Student Association",
-			description: "Created original, problem-solving code and presented for competition",
+			title: "Competitor at Technology Student Association",
+			description: "Created original, problem-solving code and presented for competition. Debated current technological issues in time-limited competition.",
 			icons: null,
+			link: "https://tsaweb.org/"
 		}
 	],
 }
@@ -112,13 +115,13 @@ export const contact = {
 	description: "Contact me at your leisure via email",
 	buttons: [
 		{
-			title: "Email Me",
+			title: "Personal Email",
 			link: "mailto:jonathanbarta3@gmail.com",
 			isPrimary: true,
 		},
 		{
-			title: "Schedule Meeting",
-			link: "",
+			title: "School Email",
+			link: "mailto:jbarta@unc.edu",
 			isPrimary: false,
 		},
 	]
@@ -127,7 +130,7 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Jonathan Barta | Student | Programmer | Alturist",
+	title: "Jonathan Barta | Student | Altruist",
 	description: "Eager-to-learn student athlete with leadership and technical skills pursuing a career in computer science and business.",
 	image: profile.src,
 }
@@ -135,7 +138,7 @@ export const SEO = {
 export const links = {
 	image: profile.src,
 	title: "@jbsypher",
-	description: "Jonathan Barta | Student | Programmer | Alturist",
+	description: "Jonathan Barta | Student | Alturist",
 	cards: [
 		{
 			title: "My website",
@@ -144,10 +147,10 @@ export const links = {
 		{
 			title: "My GitHub",
 			link: "https://github.com/jbsypher/",
-		},/*
+		},
 		{
 			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
-		},*/
+			link: "https://www.linkedin.com/in/jonathan-abrose-barta-",
+		},
 	]
 }
