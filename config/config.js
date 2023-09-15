@@ -36,7 +36,7 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/11aaToieS5EZz-XGwh3HE1DoOvMszX4ZnJVL8JSmPj3s/edit?usp=sharing",
+			link: "https://drive.google.com/file/d/1U2V0ThgpbqbwZLbu9KggnmC0uEkkk9Bp/view?usp=sharing",
 			isPrimary: false,
 		},
 	],
@@ -45,10 +45,10 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"-Student at The University of North Carolina at Chapel Hill in the Class of 2027",
-		"-Top-Ranked Competitor in Software Development, Business Competitions, & Debate",
-		"-Buckley Public Service Scholar",
-		"-Philosophy and Guitar enjoyer",
+		"-Honors Student at The University of North Carolina at Chapel Hill in the Class of 2027",
+		"-International Business Machines Thomas J. Watson Memorial Scholarship Recipient",
+		"-Assured Admittance into Kenan-Flagler Business School; selected into top 2% of 3000+ applicants",
+		"-Buckley Public Service Scholar"
 	],
 }
 
@@ -82,13 +82,35 @@ export const projects = {
 					link: "https://github.com/jbsypher/AttendanceScript/tree/master",
 				},
 			]
-		},/*
+		},
+		{
+			title: "TheReviewIdentifier",
+			description: "A machine learning based program which accurately identifies the sentiment of reviews.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/jbsypher/TheReviewIdentifier",
+				},
+			]
+		},
+		{
+			title: "YouMach",
+			description: "A machine learning application meant to allow everyday people to analyze data in endless applications.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/jbsypher/YouMach",
+				},
+			]
+		},
+
+		/*
 		{
 			title: "QuranTalk",
 			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
 			icons: [
 				{
-					icon: faAppStore,
+					icon: faGitStore,
 					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
 				},
 				{
