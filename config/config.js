@@ -1,7 +1,7 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay, faAppleWhole, faComputer } from '@fortawesome/free-brands-svg-icons';
-import { } from '@fortawesome/free-solid-svg-icons';
+import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faClipboardUser, faBusinessTime, faBuilding, faAppleWhole, faComputer, faMugHot, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
 	name: "Jonathan",
@@ -36,7 +36,7 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://drive.google.com/file/d/1U2V0ThgpbqbwZLbu9KggnmC0uEkkk9Bp/view?usp=sharing",
+			link: "https://drive.google.com/file/d/1CjvvOgZelctFvaKn_BxLow_GIUP0xBn2/view?usp=sharing",
 			isPrimary: false,
 		},
 	],
@@ -45,10 +45,10 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"-Honors Student at The University of North Carolina at Chapel Hill in the Class of 2027",
-		"-International Business Machines Thomas J. Watson Memorial Scholarship Recipient",
-		"-Assured Admittance into Kenan-Flagler Business School; selected into top 2% of 3000+ applicants",
-		"-Buckley Public Service Scholar"
+		"•Honors Student at The University of North Carolina at Chapel Hill in the Class of 2027",
+		"•International Business Machines Thomas J. Watson Memorial Scholarship Recipient",
+		"•Assured Admittance into Kenan-Flagler Business School; selected into top 2% of 3000+ applicants",
+		"•Buckley Public Service Scholar"
 	],
 }
 
@@ -56,16 +56,44 @@ export const work = {
 	title: "What I do",
 	cards: [
 		{
-			title: "Code Coach",
-			description: "Instructed students through coding exercises at theCoderSchool. Created a code training program for newly hired staff.",
-			icons: faAppleWhole,
-			link: "https://www.thecoderschool.com/"
+			title: "Business Consultant at 180 Degrees Consulting - 2023",
+			description: "Working with student consultants to provide pro-bono consulting services to nonprofits and socially minded organizations (7% acceptance of 150+ applicants)",
+			icons: [
+				{
+					icon: faBusinessTime,
+					link: "https://unc180dc.org/",
+				},
+			]
 		},
 		{
-			title: "Competitor at Technology Student Association",
+			title: "Strategy Consultant for Meantime Coffee - 2023",
+			description: "Analyzing nonprofit business Meantime Coffee to identify profit strategies, improve sustainability initiatives, streamline the supply chain, and examine market opportunities (3% acceptance of ~100 applicants)",
+			icons: [
+				{
+					icon: faMugHot,
+					link: "http://www.themeantimecoffeeco.com/",
+				},
+			]
+		},
+		{
+			title: "Competitor at Technology Student Association - 2022",
 			description: "Created original, problem-solving code and presented for competition. Debated current technological issues in time-limited competition.",
-			icons: faComputer,
-			link: "https://tsaweb.org/"
+			icons: [
+				{
+					icon: faComputer,
+					link: "https://tsaweb.org/",
+				},
+			]
+		},
+		{
+			title: "Code Coach at The Coder School - 2021",
+			description: "Instructed students through coding exercises at The Coder School. Created a code training program for newly hired staff.",
+			icons: [
+				{
+					icon: faAppleWhole,
+					link: "https://www.thecoderschool.com/",
+				},
+			]
 		}
 	],
 }
@@ -85,7 +113,7 @@ export const projects = {
 		},
 		{
 			title: "TheReviewIdentifier",
-			description: "A machine learning based program which accurately identifies the sentiment of reviews.",
+			description: "A machine learning based program which accurately identifies the sentiment of reviews",
 			icons: [
 				{
 					icon: faGithub,
@@ -95,7 +123,7 @@ export const projects = {
 		},
 		{
 			title: "YouMach",
-			description: "A machine learning application meant to allow everyday people to analyze data in endless applications.",
+			description: "A machine learning application meant to allow everyday people to analyze data in endless ways",
 			icons: [
 				{
 					icon: faGithub,
@@ -152,15 +180,15 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Jonathan Barta | Student | Altruist",
-	description: "Eager-to-learn student with leadership and technical skills pursuing a career in computer science and business.",
+	title: "Jonathan Barta | Student | Consultant",
+	description: "Eager-to-learn student with leadership and technical skills pursuing a career in consulting.",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
 	title: "@jbsypher",
-	description: "Jonathan Barta | Student | Altruist",
+	description: "Jonathan Barta | Student | Consultant",
 	cards: [
 		{
 			title: "My website",
