@@ -94,7 +94,7 @@ export const work = {
 					link: "https://www.thecoderschool.com/",
 				},
 			]
-		}
+		},
 	],
 }
 
@@ -113,7 +113,7 @@ export const projects = {
 		},
 		{
 			title: "TheReviewIdentifier",
-			description: "A machine learning based program which accurately identifies the sentiment of reviews",
+			description: "A machine learning program which accurately identifies the sentiment of reviews",
 			icons: [
 				{
 					icon: faGithub,
