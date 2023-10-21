@@ -56,8 +56,8 @@ export const work = {
 	title: "What I do",
 	cards: [
 		{
-			title: "Business Consultant at 180 Degrees Consulting - 2023",
-			description: "Working with student consultants to provide pro-bono consulting services to nonprofits and socially minded organizations (7% acceptance of 150+ applicants)",
+			title: "Social Good Consulting",
+			description: "Consultant for 180 Degrees Consulting - 2023\nWorking with student consultants to provide pro-bono consulting services to nonprofits and socially minded organizations (7% acceptance of 150+ applicants)",
 			icons: [
 				{
 					icon: faBusinessTime,
@@ -66,8 +66,8 @@ export const work = {
 			]
 		},
 		{
-			title: "Strategy Consultant for Meantime Coffee - 2023",
-			description: "Analyzing nonprofit business Meantime Coffee to identify profit strategies, improve sustainability initiatives, streamline the supply chain, and examine market opportunities (3% acceptance of ~100 applicants)",
+			title: "Strategy Consulting",
+			description: "Strategy Consultant for nonprofit business Meantime Coffee - 2023\nWorking to identify profit strategies, improve sustainability initiatives, streamline the supply chain, and examine market opportunities (3% acceptance of ~100 applicants)",
 			icons: [
 				{
 					icon: faMugHot,
@@ -76,8 +76,8 @@ export const work = {
 			]
 		},
 		{
-			title: "Competitor at Technology Student Association - 2022",
-			description: "Created original, problem-solving code and presented for competition. Debated current technological issues in time-limited competition.",
+			title: "Compete in Technological Competitions",
+			description: "Competitor for the Technology Student Association - 2022\nCreated original, problem-solving code and presented for competition. Debated current technological issues in time-limited competition.",
 			icons: [
 				{
 					icon: faComputer,
@@ -86,8 +86,8 @@ export const work = {
 			]
 		},
 		{
-			title: "Code Coach at The Coder School - 2021",
-			description: "Instructed students through coding exercises at The Coder School. Created a code training program for newly hired staff.",
+			title: "Software Development Tutoring",
+			description: "Code Coach at The Coder School - 2021\nInstructed students through coding exercises at The Coder School. Created a code training program for newly hired staff.",
 			icons: [
 				{
 					icon: faAppleWhole,
